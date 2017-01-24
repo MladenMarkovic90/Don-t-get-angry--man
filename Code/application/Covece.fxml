@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="842.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Covece">
+   <children>
+      <AnchorPane fx:id="main" layoutX="50.0" prefHeight="600.0" prefWidth="600.0">
+         <children>
+            <Circle fx:id="p21" fill="#f0f0f0" layoutX="300.0" layoutY="50.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p22" fill="#f0f0f0" layoutX="350.0" layoutY="50.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p20" fill="#f0f0f0" layoutX="250.0" layoutY="50.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="green1" fill="#1eff1e" layoutX="40.0" layoutY="40.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="green2" fill="#1eff1e" layoutX="90.0" layoutY="40.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="green4" fill="#1eff1e" layoutX="90.0" layoutY="90.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="green3" fill="#1eff1e" layoutX="40.0" layoutY="90.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="yellow2" fill="#ffff1e" layoutX="540.0" layoutY="40.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="yellow1" fill="#ffff1e" layoutX="490.0" layoutY="40.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="yellow3" fill="#ffff1e" layoutX="490.0" layoutY="90.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="yellow4" fill="#ffff1e" layoutX="540.0" layoutY="90.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p19" fill="#f0f0f0" layoutX="250.0" layoutY="100.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p23" fill="#f0f0f0" layoutX="350.0" layoutY="100.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="yellow5" fill="#ffffc8" layoutX="300.0" layoutY="100.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="yellow6" fill="#ffffc8" layoutX="300.0" layoutY="150.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p24" fill="#f0f0f0" layoutX="350.0" layoutY="150.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p18" fill="#f0f0f0" layoutX="250.0" layoutY="150.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p17" fill="#f0f0f0" layoutX="250.0" layoutY="200.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p25" fill="#f0f0f0" layoutX="350.0" layoutY="200.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="yellow7" fill="#ffffc8" layoutX="300.0" layoutY="200.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="yellow8" fill="#ffffc8" layoutX="300.0" layoutY="250.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p26" fill="#f0f0f0" layoutX="350.0" layoutY="250.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p16" fill="#f0f0f0" layoutX="250.0" layoutY="250.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="green8" fill="#c8ffc8" layoutX="250.0" layoutY="300.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="red8" fill="#ffc8c8" layoutX="350.0" layoutY="300.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="blue8" fill="#c8c8ff" layoutX="300.0" layoutY="350.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p36" fill="#f0f0f0" layoutX="350.0" layoutY="350.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p06" fill="#f0f0f0" layoutX="250.0" layoutY="350.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p05" fill="#f0f0f0" layoutX="250.0" layoutY="400.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p37" fill="#f0f0f0" layoutX="350.0" layoutY="400.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="blue7" fill="#c8c8ff" layoutX="300.0" layoutY="400.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="blue6" fill="#c8c8ff" layoutX="300.0" layoutY="450.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p38" fill="#f0f0f0" layoutX="350.0" layoutY="450.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p04" fill="#f0f0f0" layoutX="250.0" layoutY="450.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="blue5" fill="#c8c8ff" layoutX="300.0" layoutY="500.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p39" fill="#f0f0f0" layoutX="350.0" layoutY="500.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p03" fill="#f0f0f0" layoutX="250.0" layoutY="500.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p02" fill="#f0f0f0" layoutX="250.0" layoutY="550.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p40" fill="#f0f0f0" layoutX="350.0" layoutY="550.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p01" fill="#f0f0f0" layoutX="300.0" layoutY="550.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p35" fill="#f0f0f0" layoutX="400.0" layoutY="350.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="red7" fill="#ffc8c8" layoutX="400.0" layoutY="300.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p27" fill="#f0f0f0" layoutX="400.0" layoutY="250.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p28" fill="#f0f0f0" layoutX="450.0" layoutY="250.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="red6" fill="#ffc8c8" layoutX="450.0" layoutY="300.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p34" fill="#f0f0f0" layoutX="450.0" layoutY="350.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p29" fill="#f0f0f0" layoutX="500.0" layoutY="250.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="red5" fill="#ffc8c8" layoutX="500.0" layoutY="300.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p33" fill="#f0f0f0" layoutX="500.0" layoutY="350.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p30" fill="#f0f0f0" layoutX="550.0" layoutY="250.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p31" fill="#f0f0f0" layoutX="550.0" layoutY="300.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p32" fill="#f0f0f0" layoutX="550.0" layoutY="350.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p07" fill="#f0f0f0" layoutX="200.0" layoutY="350.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="green7" fill="#c8ffc8" layoutX="200.0" layoutY="300.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p15" fill="#f0f0f0" layoutX="200.0" layoutY="250.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p08" fill="#f0f0f0" layoutX="150.0" layoutY="350.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="green6" fill="#c8ffc8" layoutX="150.0" layoutY="300.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p14" fill="#f0f0f0" layoutX="150.0" layoutY="250.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p09" fill="#f0f0f0" layoutX="100.0" layoutY="350.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="green5" fill="#c8ffc8" layoutX="100.0" layoutY="300.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p13" fill="#f0f0f0" layoutX="100.0" layoutY="250.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p10" fill="#f0f0f0" layoutX="50.0" layoutY="350.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p11" fill="#f0f0f0" layoutX="50.0" layoutY="300.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p12" fill="#f0f0f0" layoutX="50.0" layoutY="250.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="blue3" fill="#1e1eff" layoutX="40.0" layoutY="560.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="blue4" fill="#1e1eff" layoutX="90.0" layoutY="560.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="blue2" fill="#1e1eff" layoutX="90.0" layoutY="510.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="blue1" fill="#1e1eff" layoutX="40.0" layoutY="510.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="red1" fill="#ff1e1e" layoutX="490.0" layoutY="510.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="red2" fill="#ff1e1e" layoutX="540.0" layoutY="510.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="red4" fill="#ff1e1e" layoutX="540.0" layoutY="560.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="red3" fill="#ff1e1e" layoutX="490.0" layoutY="560.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="kocka" disable="true" layoutX="676.0" layoutY="387.0" minHeight="50.0" minWidth="150.0" mnemonicParsing="false" onAction="#baci_kocku" text="THROW">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <AnchorPane fx:id="kocka_polje" layoutX="701.0" layoutY="486.0" prefHeight="100.0" prefWidth="100.0">
+         <children>
+            <Circle fx:id="c1" layoutX="20.0" layoutY="20.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+            <Circle fx:id="c7" layoutX="80.0" layoutY="80.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+            <Circle fx:id="c5" layoutX="80.0" layoutY="20.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+            <Circle fx:id="c3" layoutX="20.0" layoutY="80.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+            <Circle fx:id="c2" layoutX="20.0" layoutY="50.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+            <Circle fx:id="c6" layoutX="80.0" layoutY="50.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+            <Circle fx:id="c4" layoutX="50.0" layoutY="50.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+         </children>
+      </AnchorPane>
+      <Circle fx:id="potez" fill="#1e1eff" layoutX="750.0" layoutY="340.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Label layoutX="693.0" layoutY="264.0" text="PLAYER:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <MenuBar layoutX="715.0" layoutY="14.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Game">
+            <items>
+              <MenuItem fx:id="Play_2" mnemonicParsing="false" text="2 Player" />
+                  <MenuItem fx:id="Play_3" mnemonicParsing="false" text="3 Player" />
+                  <MenuItem fx:id="Play_4" mnemonicParsing="false" text="4 Player" />
+                  <MenuItem fx:id="Info" mnemonicParsing="false" text="Info" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
